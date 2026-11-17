@@ -1,0 +1,40 @@
+# ==========================================
+# 1. ATURAN PERMANEN (JANGAN DIHAPUS)
+# ==========================================
+# Python & Backend artifacts
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+instance/
+
+# Node & Frontend artifacts
+node_modules/
+.next/
+out/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing & Media reports (Sangat boros token)
+playwright-report/
+test-results/
+docs/screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Environment & Git
+.git/
+.env
+.env.*
+
+# ==========================================
+# 2. PENGHEMAT TOKEN FASE 1 & FASE 2
+# ==========================================
+# Isinya kembar dengan .kiro/steering/ (agar Kiro tidak baca 2x)
+guidelines/
+
+# Catatan eksperimen Fase 1 sudah selesai, tidak perlu dibaca lagi saat koding
+documentation/
