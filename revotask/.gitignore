@@ -1,0 +1,45 @@
+# ==========================================
+# 1. ENVIRONMENT & RAHASIA (WAJIB DIABAIKAN)
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# 2. PYTHON & BACKEND (FLASK / PYTEST)
+# ==========================================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+instance/
+*.db
+*.sqlite3
+
+# ==========================================
+# 3. NODE.JS & FRONTEND (NEXT.JS)
+# ==========================================
+node_modules/
+.next/
+out/
+build/
+.vercel
+
+# ==========================================
+# 4. TESTING & LOGS
+# ==========================================
+playwright-report/
+test-results/
+*.log
+
+# ==========================================
+# 5. SISTEM OPERASI & EDITOR (MACOS / VSCODE)
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -43,3 +43,4 @@ documentation/
 # 3. FOKUS FASE 3: ISOLASI BACKEND
 # ==========================================
 frontend/
+backend/migrations/versions/
