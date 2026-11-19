@@ -40,7 +40,6 @@ guidelines/
 documentation/
 
 # ==========================================
-# 3. FOKUS FASE 3: ISOLASI BACKEND
+# 3. FOKUS FASE 3: ISOLASI FRONTEND
 # ==========================================
-frontend/
-backend/migrations/versions/
+backend/
